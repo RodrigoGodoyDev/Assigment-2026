@@ -13,13 +13,13 @@ describe('Search Functionality', () => {
     });
 
     it('Should search for a book successfully without login', function () {
-        // 1. Go directly to Book Store
+        // Book Store
         BookStorePage.visit();
 
-        // 2. Search
+        // Search
         BookStorePage.searchBook(this.data.searchQuery);
 
-        // 3. Assertion
+        // Assertion
         BookStorePage.searchResult.should('contain.text', this.data.searchQuery);
     });
 });
