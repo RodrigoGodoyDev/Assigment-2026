@@ -6,7 +6,9 @@ Rodrigo Godoy
 Date:
 January 2026
 
+
 1. Task 1: Refinement Meeting (US-19667)
+
 
 Analysis of the User Story and Acceptance Criteria.
 
@@ -25,7 +27,9 @@ The current Acceptance Criteria is functional but needs more clarity to be prope
 6- Spelling Errors: Does it have any logic to find matches even if there are typos or spelling mistakes?
 
 
+
 2. Task 2: Test Cases (Search Functionality)
+
 
 List of scenarios to validate User Story 19667.
 
