@@ -18,12 +18,14 @@ Installation and Setup
 
 1. Clone the repository:
 git clone https://github.com/RodrigoGodoyDev/Assigment-2026.git
+
+2. Enter the project directory:
 cd Assigment-2026
 
-2. Install dependencies:
+3. Install dependencies:
 npm install
 
-3. Configuration:
+4. Configuration:
 The credentials are not included in the repository for security. Please refer to the provided documentation to get the valid username and password.
 
 Create a file named cypress.env.json in the root folder with the following format:
@@ -33,7 +35,7 @@ Create a file named cypress.env.json in the root folder with the following forma
   "test_password": "DOCUMENTATION_PASSWORD"
 }
 
-4. Running the Tests:
+5. Running the Tests:
 To execute all tests in headless mode:
 npx cypress run
 
