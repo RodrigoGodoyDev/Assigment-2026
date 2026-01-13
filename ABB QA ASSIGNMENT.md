@@ -12,12 +12,12 @@ Analysis of the User Story and Acceptance Criteria.
 
 The current Acceptance Criteria is functional but needs more clarity to be properly tested. I would ask the following questions to the Product Owner:
 
-· Search Scope: Besides Title and Author, shouldn't Publisher also be included in the search?
-· Minimum Characters: Does the filter work with just one character, or do I need to type more to see results?
-· Case Sensitivity: Does it differentiate between Uppercase and Lowercase?
-· Whitespace: Does it care about spaces at the beginning, middle, or end of the word?
-· Special Characters: How does it handle special characters like '?
-· Spelling Errors: Does it have any logic to find matches even if there are typos or spelling mistakes?
+1- Search Scope: Besides Title and Author, shouldn't Publisher also be included in the search?
+2- Minimum Characters: Does the filter work with just one character, or do I need to type more to see results?
+3- Case Sensitivity: Does it differentiate between Uppercase and Lowercase?
+4- Whitespace: Does it care about spaces at the beginning, middle, or end of the word?
+5- Special Characters: How does it handle special characters like '?
+6- Spelling Errors: Does it have any logic to find matches even if there are typos or spelling mistakes?
 
 
 2. Task 2: Test Cases (Search Functionality)
