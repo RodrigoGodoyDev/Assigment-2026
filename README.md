@@ -1,4 +1,4 @@
-# ABB QA Assignment - Automation Project
+# ABB QA Assignment - Automation Project - [![Cypress Tests](https://github.com/RodrigoGodoyDev/Assigment-2026/actions/workflows/main.yml/badge.svg)](https://github.com/RodrigoGodoyDev/Assigment-2026/actions/workflows/main.yml)
 
 Candidate:
 Rodrigo Godoy
