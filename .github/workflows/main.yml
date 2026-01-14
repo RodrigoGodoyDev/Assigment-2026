@@ -1,5 +1,6 @@
 name: Cypress E2E Tests
 
+# Trigger: Run this workflow on every push to the main branch
 on:
   push:
     branches: [ main ]
@@ -18,6 +19,13 @@ jobs:
         with:
           browser: chrome
         env:
-
           CYPRESS_test_user: ${{ secrets.TEST_USER }}
           CYPRESS_test_password: ${{ secrets.TEST_PASSWORD }}
+
+      - name: Upload Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-report
+          path: cypress/reports
+          retention-days: 30
