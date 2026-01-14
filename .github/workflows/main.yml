@@ -1,6 +1,5 @@
-name: Cypress E2E Tests
+name: Cypress Tests
 
-# Trigger: Run this workflow on every push to the main branch
 on:
   push:
     branches: [ main ]
@@ -18,10 +17,12 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           browser: chrome
+        # CORREGIDO: env está alineado a la izquierda (mismo nivel que with)
         env:
           CYPRESS_test_user: ${{ secrets.TEST_USER }}
           CYPRESS_test_password: ${{ secrets.TEST_PASSWORD }}
 
+      # Este paso guarda el reporte para que lo puedas descargar
       - name: Upload Report
         if: always()
         uses: actions/upload-artifact@v4
